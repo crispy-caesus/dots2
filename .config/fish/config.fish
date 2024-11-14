@@ -3,7 +3,7 @@ if status is-interactive
     
     # tmux a
 
-    fastfetch
+    # fastfetch
     #starship init fish | source
     
     set -gx PATH $PATH ~/.local/bin/
@@ -13,3 +13,5 @@ if status is-interactive
 
     source ~/.config/fish/functions/bindings.fish
 end
+
+set fish_greeting ""
