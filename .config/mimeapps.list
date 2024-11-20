@@ -41,3 +41,4 @@ application/x-extension-shtml=zen-alpha.desktop;
 application/xhtml+xml=zen-alpha.desktop;
 application/x-extension-xhtml=zen-alpha.desktop;
 application/x-extension-xht=zen-alpha.desktop;
+audio/vnd.wave=io.bassi.Amberol.desktop;
