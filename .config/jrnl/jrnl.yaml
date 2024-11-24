@@ -5,8 +5,8 @@ colors:
   title: cyan
 default_hour: 9
 default_minute: 0
-display_format: "boxed"
-editor: 'nvim'
+display_format: boxed
+editor: nvim
 encrypt: true
 highlight: true
 indent_character: '|'
@@ -17,4 +17,4 @@ linewrap: 79
 tagsymbols: '#@'
 template: false
 timeformat: '%F %r'
-version: v4.1
+version: v4.2
