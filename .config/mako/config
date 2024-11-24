@@ -39,5 +39,10 @@ border-color=#88c0d0
 [summary~="log-.*"]
 border-color=#a3be8c
 
-[app-name=vesktop summary~="(.*(^| )orz|ORZ|sto|STO|otl|OTL( |$).*)"]
-invisible=1
+
+[app-name=vesktop summary="loreal"]
+border-color=#FFB6C1
+
+
+[app-name=vesktop summary="crispy caesus2"]
+border-color=#FFB6C1
