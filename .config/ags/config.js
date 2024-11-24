@@ -190,6 +190,16 @@ const Separator = Widget.Separator({
     class_name: "separator",
 })
 
+function Dnd() {
+    return Widget.Button({
+        child: Widget.Label('dnd'),
+        onClicked: () => {
+            console.log('DND button clicked'); // Add debugging
+            Utils.exec(`${Utils.HOME}/.config/hypr/scripts/dnd.sh`);
+        }
+    })
+}
+
 // layout of the bar
 function Top() {
     return Widget.Box({
@@ -223,6 +233,7 @@ function Bottom() {
         spacing: 8,
         children: [
             BatteryLabel(),
+            Dnd(),
             SysTray(),
             DateTime(),
         ],

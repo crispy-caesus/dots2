@@ -20,7 +20,7 @@ max-icon-size=64
 default-timeout=10000
 ignore-timeout=0
 max-history=10
-layer=overlay
+invisible=0
 
 on-button-left=invoke-default-action
 on-button-right=dismiss
@@ -39,10 +39,24 @@ border-color=#88c0d0
 [summary~="log-.*"]
 border-color=#a3be8c
 
-
-[app-name=vesktop summary="loreal"]
-border-color=#FFB6C1
-
-
 [app-name=vesktop summary="crispy caesus2"]
-border-color=#FFB6C1
+#border-color=#FFB6C1
+font=monospace 10
+background-color=#285577FF
+text-color=#FFFFFFFF
+width=300
+height=100
+outer-margin=0
+margin=10
+padding=5
+border-size=2
+border-color=#4C7899FF
+border-radius=0
+progress-color=#5588AAFF
+
+[app-name=batsignal]
+format=<b>%s</b>\n%b
+group-by=app-name
+
+[mode=do-not-disturb]
+invisible=1
