@@ -24,7 +24,7 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 
-vim.opt.conceallevel = 1            -- obsidian needs it
+vim.opt.conceallevel = 2            -- obsidian needs it
 
 vim.filetype.add({
   pattern = { [".*/hypr/.*%.conf"] = "hyprlang" },
