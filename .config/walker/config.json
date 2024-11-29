@@ -30,7 +30,7 @@
             "placeholder": "Applications",
             "prioritize_new": true,
             "refresh": true,
-            "show_generic": false,
+            "show_generic": true,
             "show_icon_when_single": true,
             "show_sub_when_single": true,
             "weight": 5
