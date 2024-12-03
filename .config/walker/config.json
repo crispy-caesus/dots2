@@ -89,7 +89,8 @@
             "placeholder": "Finder",
             "refresh": true,
             "switcher_only": true,
-            "weight": 5
+            "weight": 5,
+            "use_fd": true
         },
         "runner": {
             "generic_entry": false,
