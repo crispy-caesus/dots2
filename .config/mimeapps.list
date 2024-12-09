@@ -19,6 +19,7 @@ application/x-extension-shtml=zen-alpha.desktop
 application/xhtml+xml=zen-alpha.desktop
 application/x-extension-xhtml=zen-alpha.desktop
 application/x-extension-xht=zen-alpha.desktop
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
 
 [Added Associations]
 video/mp4=mpv.desktop;
