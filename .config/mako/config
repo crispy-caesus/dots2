@@ -63,3 +63,6 @@ group-by=app-name
 
 [mode=do-not-disturb]
 invisible=1
+
+[app-name=vesktop body~="Reacted .* to you"]
+invisible=1
