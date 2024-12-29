@@ -321,7 +321,7 @@
             "enabled": false
         },
         "RelationshipNotifier": {
-            "enabled": false
+            "enabled": true
         },
         "RevealAllSpoilers": {
             "enabled": false
@@ -613,6 +613,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1732465559093
+        "settingsSyncVersion": 1735217283998
     }
 }
