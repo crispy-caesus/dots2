@@ -1,0 +1,4 @@
+HDMI-A-1 = /home/crispy/Documents/tagstudio/wallpapers/wallhaven-rrz76w.jpg
+DP-1 = /home/crispy/Documents/tagstudio/wallpapers/wallhaven-rrz76w.jpg
+DP-3 = /home/crispy/Documents/tagstudio/wallpapers/wallhaven-rrz76w.jpg
+DP-2 = /home/crispy/Documents/tagstudio/wallpapers/wallhaven-rrz76w.jpg
