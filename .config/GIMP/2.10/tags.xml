@@ -1309,6 +1309,18 @@
   <resource identifier="Belfast Digits 2," checksum="(null)">
   </resource>
 
+  <resource identifier="Berkeley Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Berkeley Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Berkeley Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Berkeley Mono Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="C059" checksum="(null)">
   </resource>
 
@@ -1670,6 +1682,42 @@
   </resource>
 
   <resource identifier="JetBrainsMonoNL Nerd Font Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Monospace" checksum="(null)">
