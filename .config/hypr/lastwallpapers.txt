@@ -1,4 +1,5 @@
-HDMI-A-1 = /home/crispy/Documents/tagstudio/wallpapers/wallhaven-rrz76w.jpg
-DP-1 = /home/crispy/Documents/tagstudio/wallpapers/wallhaven-rrz76w.jpg
-DP-3 = /home/crispy/Documents/tagstudio/wallpapers/wallhaven-rrz76w.jpg
-DP-2 = /home/crispy/Documents/tagstudio/wallpapers/wallhaven-rrz76w.jpg
+HDMI-A-1 = /home/crispy/Documents/tagstudio/wallpapers/bocchi-the-rock-4k-qh.jpg
+eDP-1 = /home/crispy/Documents/tagstudio/wallpapers/1291723.jpg
+DP-1 = /home/crispy/Documents/tagstudio/wallpapers/1291723.jpg
+DP-3 = /home/crispy/Documents/tagstudio/wallpapers/bocchi-the-rock-4k-qh.jpg
+DP-2 = /home/crispy/Documents/tagstudio/wallpapers/bocchi-the-rock-4k-qh.jpg
