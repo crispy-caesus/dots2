@@ -1,8 +1,8 @@
 [Default Applications]
 video/mp4=mpv.desktop
 video/x-matroska=mpv.desktop
-x-scheme-handler/lunarclient=lunarclient.desktop
-application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
+x-scheme-handler/lunarclient=launcher.desktop
+application/pdf=org.pwmt.zathura.desktop
 x-scheme-handler/mailto=userapp-Thunderbird-ZQLXK2.desktop
 message/rfc822=userapp-Thunderbird-ZQLXK2.desktop
 x-scheme-handler/mid=userapp-Thunderbird-ZQLXK2.desktop
@@ -20,7 +20,7 @@ application/xhtml+xml=zen-beta.desktop
 application/x-extension-xhtml=zen-beta.desktop
 application/x-extension-xht=zen-beta.desktop
 x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
-x-scheme-handler/discord-562286213059444737=lunarclient.desktop
+x-scheme-handler/discord-562286213059444737=launcher.desktop
 x-scheme-handler/msteams=teams.desktop
 
 [Added Associations]
@@ -45,3 +45,4 @@ application/xhtml+xml=zen-alpha.desktop;zen-beta.desktop;
 application/x-extension-xhtml=zen-alpha.desktop;zen-beta.desktop;
 application/x-extension-xht=zen-alpha.desktop;zen-beta.desktop;
 audio/vnd.wave=io.bassi.Amberol.desktop;
+text/plain=nvim.desktop;vim.desktop;
