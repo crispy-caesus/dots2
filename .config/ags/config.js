@@ -39,7 +39,7 @@ const time = Variable("", {
     poll: [1000, `date +'%H\n%M'`],
 })
 const date = Variable("", {
-    poll: [1000, `date +'%m/%d'`],
+    poll: [1000, `date +'%m-%d'`],
 })
 const day = Variable("", {
     poll: [1000, `date +'%d'`],
