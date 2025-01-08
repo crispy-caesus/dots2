@@ -1,5 +1,5 @@
 HDMI-A-1 = /home/crispy/Documents/tagstudio/wallpapers/bocchi-the-rock-4k-qh.jpg
-eDP-1 = /home/crispy/Documents/tagstudio/wallpapers/wallhaven-2e3ekg.png
+eDP-1 = /home/crispy/Documents/tagstudio/wallpapers/wallhaven-p96odm.png
 DP-1 = /home/crispy/Documents/tagstudio/wallpapers/bocchi-the-rock-4k-qh.jpg
 DP-3 = /home/crispy/Documents/tagstudio/wallpapers/bocchi-the-rock-4k-qh.jpg
 DP-2 = /home/crispy/Documents/tagstudio/wallpapers/bocchi-the-rock-4k-qh.jpg
