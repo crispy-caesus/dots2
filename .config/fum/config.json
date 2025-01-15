@@ -1,0 +1,9 @@
+{
+    "players": ["tidal-hifi", "elisa"],
+    "use_active_player": true,
+    "align": "center",
+    "layout": "right-to-left",
+    "hidden": [],
+    "progress": "󰝤",
+    "empty": "󰁱"
+}
