@@ -3,7 +3,7 @@
     "use_active_player": false,
     "debug": false,
     "width": 40,
-    "height": 6,
+    "height": 7,
     "layout": [
         {
             "type": "container",
@@ -11,7 +11,7 @@
             "children": [
                 { 
                     "type": "cover-art", 
-                    "width": 20
+                    "width": 17
                 },
                 {
                     "type": "container",
