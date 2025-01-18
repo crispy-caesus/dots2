@@ -1,5 +1,5 @@
 {
-    "players": ["tidal-hifi", "elisa"],
+    "players": ["tidal-hifi", "elisa", "kew"],
     "use_active_player": false,
     "debug": false,
     "width": 40,
