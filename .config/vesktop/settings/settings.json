@@ -321,7 +321,12 @@
             "enabled": false
         },
         "RelationshipNotifier": {
-            "enabled": true
+            "enabled": true,
+            "offlineRemovals": true,
+            "groups": true,
+            "servers": true,
+            "friends": true,
+            "friendRequestCancels": true
         },
         "RevealAllSpoilers": {
             "enabled": false
@@ -395,7 +400,13 @@
         "Translate": {
             "enabled": true,
             "autoTranslate": false,
-            "showChatBarButton": true
+            "showChatBarButton": true,
+            "receivedInput": "auto",
+            "service": "google",
+            "receivedOutput": "en",
+            "sentInput": "en",
+            "sentOutput": "nl",
+            "showAutoTranslateTooltip": true
         },
         "TypingIndicator": {
             "enabled": false
@@ -601,6 +612,9 @@
         },
         "FixImagesQuality": {
             "enabled": false
+        },
+        "FullUserInChatbox": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -613,6 +627,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1735217283998
+        "settingsSyncVersion": 1737293079485
     }
 }
