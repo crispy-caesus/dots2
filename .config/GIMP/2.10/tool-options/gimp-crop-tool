@@ -1,7 +1,0 @@
-# GIMP gimp-crop-tool options
-
-(fixed-rule-active yes)
-(overridden-fixed-aspect yes)
-(pattern "Pine")
-
-# end of gimp-crop-tool options
