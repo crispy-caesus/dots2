@@ -543,7 +543,9 @@
             "enabled": false
         },
         "ReplaceGoogleSearch": {
-            "enabled": false
+            "enabled": true,
+            "customEngineURL": "https://search.notashelf.dev/search?q=",
+            "customEngineName": "NotASearx"
         },
         "ReplyTimestamp": {
             "enabled": false
@@ -627,6 +629,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1737293079485
+        "settingsSyncVersion": 1737476889003
     }
 }
