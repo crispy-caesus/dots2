@@ -9,7 +9,7 @@ fi
 
 flags=""
 fileextention="mp4"
-output="-o DP-2"  # Default output
+output="-o DP-3"  # Default output
 
 # Parse options using getopts
 while getopts "ae:lo:" flag; do  # ':' for options with arguments
