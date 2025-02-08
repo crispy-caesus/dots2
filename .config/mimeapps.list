@@ -23,6 +23,7 @@ x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
 x-scheme-handler/discord-562286213059444737=launcher.desktop
 x-scheme-handler/msteams=teams.desktop
 x-scheme-handler/tidal=tidal-hifi.desktop
+x-scheme-handler/discord=vesktop.desktop
 
 [Added Associations]
 video/mp4=mpv.desktop;
