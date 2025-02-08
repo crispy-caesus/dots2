@@ -47,7 +47,7 @@
             "enabled": true
         },
         "ServerListAPI": {
-            "enabled": false
+            "enabled": true
         },
         "NoTrack": {
             "enabled": true,
@@ -177,9 +177,6 @@
             "enabled": false
         },
         "GreetStickerPicker": {
-            "enabled": false
-        },
-        "HideAttachments": {
             "enabled": false
         },
         "iLoveSpam": {
@@ -347,7 +344,8 @@
             "enabled": false
         },
         "ServerListIndicators": {
-            "enabled": false
+            "enabled": true,
+            "mode": 1
         },
         "ShikiCodeblocks": {
             "enabled": false
@@ -617,6 +615,12 @@
         },
         "FullUserInChatbox": {
             "enabled": false
+        },
+        "HideMedia": {
+            "enabled": false
+        },
+        "IrcColors": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -629,6 +633,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1737476889003
+        "settingsSyncVersion": 1738958576243
     }
 }
