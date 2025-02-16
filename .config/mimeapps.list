@@ -24,6 +24,7 @@ x-scheme-handler/discord-562286213059444737=launcher.desktop
 x-scheme-handler/msteams=teams.desktop
 x-scheme-handler/tidal=tidal-hifi.desktop
 x-scheme-handler/discord=vesktop.desktop
+x-scheme-handler/ror2mm=r2modman.desktop
 
 [Added Associations]
 video/mp4=mpv.desktop;
