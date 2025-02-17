@@ -3,9 +3,7 @@
     "autoUpdate": false,
     "autoUpdateNotification": true,
     "useQuickCss": true,
-    "themeLinks": [
-        "#https://catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css"
-    ],
+    "themeLinks": [],
     "enabledThemes": [
         "zFloat.theme.css"
     ],
@@ -633,6 +631,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1738834359056
+        "settingsSyncVersion": 1739785706908
     }
 }
