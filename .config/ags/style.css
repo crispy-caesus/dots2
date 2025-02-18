@@ -1,7 +1,7 @@
 window.bar {
     background-color: @theme_bg_color;
     color: @theme_fg_color;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     opacity: 0.85;
 }
 

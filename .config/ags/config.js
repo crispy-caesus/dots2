@@ -247,7 +247,7 @@ function Bar(monitor = 0) {
         monitor,
         anchor: ["right", "top", "bottom"],
         exclusivity: "exclusive",
-        margins: [5, 5, 5, 0],
+        margins: [0, 0, 0, 0],
         child: Widget.CenterBox({
             vertical: true,
             start_widget: Top(),
