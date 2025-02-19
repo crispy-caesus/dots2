@@ -4,7 +4,7 @@ last_wallpapers_file="$HOME/.config/hypr/lastwallpapers.txt"
 
 # Select a wallpaper using rofi
 select_wallpaper() {
-	wallpapers=$(find "$HOME/Documents/tagstudio/wallpapers" -type f)
+	wallpapers=$(find "$HOME/Pictures/wallpapers" -type f)
 
 	#selected_wallpaper=$(for a in $wallpapers; do
 	selected_wallpaper=$(echo "$wallpapers" | while IFS= read -r a; do
