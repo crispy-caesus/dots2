@@ -339,7 +339,8 @@
             "enabled": false
         },
         "SendTimestamps": {
-            "enabled": false
+            "enabled": true,
+            "replaceMessageContents": true
         },
         "ServerListIndicators": {
             "enabled": true,
@@ -631,6 +632,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1739785706908
+        "settingsSyncVersion": 1739976281221
     }
 }
