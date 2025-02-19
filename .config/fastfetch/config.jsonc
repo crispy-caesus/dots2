@@ -52,9 +52,10 @@
             "format": "\u001b[90m┌──────────────────────Software──────────────────────┐"
         },
         {
-            "type": "os",
+            "type": "custom",
             "key": " OS",
-            "keyColor": "blue"
+            "keyColor": "blue",
+            "format": "Arch btw"
         },
         {
             "type": "kernel",
