@@ -31,18 +31,7 @@ set_wallpaper() {
 	local monitor=$1
 	local wallpaper_path=$2
 
-	# Check if there is an active wallpaper on the monitor and unload it
-	current_wallpaper_path=$(hyprctl hyprpaper listactive | grep "$monitor" | awk -F ' = ' '{print $2}')
-	if [[ -n $current_wallpaper_path ]]; then
-		hyprctl hyprpaper unload "$current_wallpaper_path"
-	fi
-
-	# Preload and set the new wallpaper
-	hyprctl hyprpaper preload "$wallpaper_path"
-
-    for monitor in $(hyprctl monitors | grep 'Monitor' | awk '{ print $2 }'); do
-        hyprctl hyprpaper wallpaper "$monitor,$wallpaper_path"
-    done
+    swww img $wallpaper_path
 
 	# Save the active wallpapers to a file
 	hyprctl hyprpaper listactive >"$last_wallpapers_file"
@@ -50,39 +39,7 @@ set_wallpaper() {
 
 # Load last saved wallpapers from the file
 load_last_wallpapers() {
-	if [[ -f "$last_wallpapers_file" ]]; then
-		available_monitors=$(hyprctl -j monitors | jq -r '.[].name')
-
-		sleep 0.1 # Wait for hyprpaper to load
-
-		# Load wallpapers from the file
-		while IFS=' = ' read -r monitor wallpaper_path; do
-			if [[ -n $monitor && -n $wallpaper_path && -f "$wallpaper_path" ]]; then
-				# Check if the monitor exists
-				if echo "$available_monitors" | grep -q "$monitor"; then
-					# Preload and set the wallpaper if the monitor exists
-					hyprctl hyprpaper preload "$wallpaper_path"
-					hyprctl hyprpaper wallpaper "$monitor,$wallpaper_path"
-				else
-					echo "Monitor $monitor is not connected."
-				fi
-			fi
-		done <"$last_wallpapers_file"
-
-		# Get the list of active wallpapers
-		active_paths=$(hyprctl hyprpaper listactive | awk -F ' = ' '{print $2}')
-		# Get the list of loaded wallpapers
-		loaded_paths=$(hyprctl hyprpaper listloaded | awk -F ' = ' '{print $2}')
-
-		# Unload wallpapers that are loaded but not active
-		for loaded in $loaded_paths; do
-			if ! echo "$active_paths" | grep -q "$loaded"; then
-				hyprctl hyprpaper unload "$loaded"
-			fi
-		done
-	else
-		echo "Last wallpapers file not found."
-	fi
+    echo "Last wallpapers file not found."
 }
 
 # Argument handling
@@ -107,7 +64,7 @@ case "$1" in
 	if [[ -n $selected_wallpaper ]]; then
 		selected_monitor=$(select_monitor)
 		if [[ -n $selected_monitor ]]; then
-			set_wallpaper "$selected_monitor" "$HOME/Documents/tagstudio/wallpapers/$selected_wallpaper"
+			set_wallpaper "$selected_monitor" "$HOME/Pictures/wallpapers/$selected_wallpaper"
 		fi
 	fi
 	;;
