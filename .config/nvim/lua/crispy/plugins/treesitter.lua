@@ -6,7 +6,7 @@ return
 
 			configs.setup({
 				ensure_installed = {
-					"c", "lua", "vim", "vimdoc", "query", "elixir", "javascript", "html", "python", "go", "hyprlang"
+					"c", "lua", "vim", "vimdoc", "query", "elixir", "javascript", "html", "python", "go", "hyprlang", "bash", "fish"
 				},
 				sync_install = false,  -- Do not install parsers synchronously
 				highlight = { enable = true },  -- Enable Treesitter highlighting
