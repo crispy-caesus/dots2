@@ -14,6 +14,7 @@ if status is-interactive
     alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
     source ~/.config/fish/functions/bindings.fish
+    source ~/.config/fish/secrets.fish
 end
 
 set fish_greeting ""
