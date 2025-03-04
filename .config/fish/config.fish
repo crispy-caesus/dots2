@@ -15,6 +15,8 @@ if status is-interactive
 
     source ~/.config/fish/functions/bindings.fish
     source ~/.config/fish/secrets.fish
+
+    set -U tide_right_promt_items
 end
 
 set fish_greeting ""
