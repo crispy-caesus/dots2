@@ -69,3 +69,6 @@ invisible=1
 
 [app-name=kew]
 invisible=1
+
+[app-name=discord]
+invisible=1
