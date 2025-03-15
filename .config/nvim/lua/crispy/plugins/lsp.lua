@@ -117,6 +117,8 @@ return {
                 }
             }
 
+            require "lspconfig".qmlls.setup {}
+
             require('mason-lspconfig').setup({
                 ensure_installed = {},
                 handlers = {
