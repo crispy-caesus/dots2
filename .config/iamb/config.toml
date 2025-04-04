@@ -1,10 +1,10 @@
 [profiles.user]
 user_id = "@crispy-caesus:matrix.org"
 
-#[settings.image_preview]
-#protocol.type = "sixel"
-#protocol.font_size = [11, 26]
-#size = { height = 10, width = 66 }
+[settings.image_preview]
+protocol.type = "sixel"
+protocol.font_size = [11, 26]
+size = { height = 10, width = 66 }
 
 [settins.notifications]
 enables = true
