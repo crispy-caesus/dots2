@@ -1,0 +1,34 @@
+set mail_check = 60
+set timeout = 10
+set sort = "reverse-date-received"
+set copy = no
+set ssl_starttls = yes
+set ssl_force_tls = yes
+set send_charset = "us-ascii:utf-8"
+
+unset imap_passive
+set imap_keepalive = 300
+
+#macros
+macro index gd "<change-folder>$postponed<enter>" "go to drafts"
+macro index gs "<change-folder>$record<enter>" "go to sent"
+macro index gi "<change-folder>$spoolfile<Enter>" "go to inbox"
+macro index gt "<change-folder>$trash<enter>" "go to trash"
+macro index,pager A "<save-message> =Archive<enter> "archive message"
+
+bind pager <down> next-line
+bind pager <up> previous-line
+
+#general
+set sleep_time = 0
+
+set status_format = "%f"
+set date_format = "%m%d"
+set index_format = "%Z %D %-15.15n %s"
+set editor = nvim
+
+set alias_file = ~/.mutt/alias
+
+
+# Import SMTP and IMAP credentials
+source "gpg -dq ~/.config/mutt/protonmail.gpg |"
