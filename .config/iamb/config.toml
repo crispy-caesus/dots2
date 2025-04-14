@@ -1,11 +1,14 @@
 [profiles.user]
 user_id = "@crispy-caesus:matrix.org"
 
+[settings]
+username_display = "displayname"
+
 [settings.image_preview]
 protocol.type = "sixel"
 protocol.font_size = [11, 26]
 size = { height = 10, width = 66 }
 
-[settins.notifications]
+[settings.notifications]
 enables = true
 via = "desktop"
