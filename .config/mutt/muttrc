@@ -9,6 +9,9 @@ set send_charset = "us-ascii:utf-8"
 unset imap_passive
 set imap_keepalive = 300
 
+# Import SMTP and IMAP credentials
+source "gpg -dq ~/.config/mutt/protonmail.gpg |"
+
 #macros
 macro index gd "<change-folder>$postponed<enter>" "go to drafts"
 macro index gs "<change-folder>$record<enter>" "go to sent"
@@ -27,8 +30,9 @@ set date_format = "%m%d"
 set index_format = "%Z %D %-15.15n %s"
 set editor = nvim
 
+# render HTML and some other types as text
+auto_view text/html application/text application/pdf
+# many companies send very poor text/plain parts, so prefer html to text/plain
+alternative_order text/enriched text/html text/plain text
+
 set alias_file = ~/.mutt/alias
-
-
-# Import SMTP and IMAP credentials
-source "gpg -dq ~/.config/mutt/protonmail.gpg |"
