@@ -51,3 +51,4 @@ application/x-extension-xhtml=zen-alpha.desktop;zen-beta.desktop;zen.desktop;
 application/x-extension-xht=zen-alpha.desktop;zen-beta.desktop;zen.desktop;
 audio/vnd.wave=io.bassi.Amberol.desktop;
 text/plain=nvim.desktop;vim.desktop;
+audio/x-vorbis+ogg=io.bassi.Amberol.desktop;
