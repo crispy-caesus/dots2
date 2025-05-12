@@ -1,13 +1,19 @@
 {
   "chromiumSwitches": {},
-  "IS_MAXIMIZED": false,
+  "IS_MAXIMIZED": true,
   "IS_MINIMIZED": false,
   "WINDOW_BOUNDS": {
-    "x": 5762,
+    "x": 4802,
     "y": 2,
-    "width": 1916,
+    "width": 956,
     "height": 1076
   },
   "SKIP_HOST_UPDATE": true,
-  "BACKGROUND_COLOR": "#121214"
+  "BACKGROUND_COLOR": "#121214",
+  "openasar": {
+    "setup": true,
+    "autoupdate": false,
+    "quickstart": false,
+    "css": "/* Add your own Custom CSS here.\nHave a theme you want to use? Copy and paste the contents here.\nYou need to restart (click the restart button) after changing. */\n\n* {\n    font-family: Monocraft !important;\n}"
+  }
 }
