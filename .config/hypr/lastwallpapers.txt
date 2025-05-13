@@ -1,1 +1,0 @@
-Couldn't connect to /run/user/1000/hypr/29e2e59fdbab8ed2cc23a20e3c6043d5decb5cdc_1744542917_1281517206/.hyprpaper.sock. (3)
