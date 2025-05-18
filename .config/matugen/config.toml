@@ -1,0 +1,9 @@
+[config.wallpaper]
+command = "swww"
+arguments = ["img", "--transition-type", "center"]
+set = true
+
+[templates.qs]
+input_path = '~/Documents/github/Zaphkiel/nixosModules/external/matugen/templates/quickshell-colors.qml'
+output_path = '~/Documents/github/Zaphkiel/users/Configs/quickshell/kurukurubar/Data/Colors.qml'
+#post_hook = "pkill qs && cd ~/Documents/github/Zaphkiel/users/Configs/quickshell/kurukurubar && qs -p . --log-rules 'quickshell.dbus.properties.warning = false'"

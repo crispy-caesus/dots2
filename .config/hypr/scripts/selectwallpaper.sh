@@ -31,7 +31,7 @@ set_wallpaper() {
 	local monitor=$1
 	local wallpaper_path=$2
 
-    swww img $wallpaper_path
+    matugen image $wallpaper_path
 
 	# Save the active wallpapers to a file
 	hyprctl hyprpaper listactive >"$last_wallpapers_file"
