@@ -2,7 +2,7 @@
 #   man 5 mako
 # To view all configuration options.
 
-font=Cozette 11
+#font=Cozette 11
 format=<b>%a ⏵</b> %s\n%b
 sort=-time
 layer=overlay
@@ -68,7 +68,4 @@ invisible=1
 invisible=1
 
 [app-name=kew]
-invisible=1
-
-[app-name=discord]
 invisible=1
