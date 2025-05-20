@@ -117,7 +117,9 @@ return {
                 }
             }
 
-            require "lspconfig".qmlls.setup {}
+            require("lspconfig").qmlls.setup {
+                cmd = {"qmlls", "-E"}
+            }
 
             require('mason-lspconfig').setup({
                 ensure_installed = {},
