@@ -1,0 +1,11 @@
+[ElisaFileIndexer]
+RootPath[$e]=$HOME/Music
+
+[UiSettings]
+ColorScheme=Breeze Dark
+
+[Views]
+ColorScheme=Breeze Dark
+InitialView=AllAlbums
+SortRolePreferences=Track==ArtistRole
+ViewStylePreferences=Album==GridStyle
