@@ -31,9 +31,9 @@ function notify_mute
 {
     mute=`pamixer $srce --get-mute | cat`
     if [ "$mute" == "true" ] ; then
-        dunstify "t2" -a "muted" "$nsink" -i ${icodir}/muted-${dvce}.svg -r 91190 -t 800
+        notify-send "t2" -a "muted" "$nsink" -i ${icodir}/muted-${dvce}.svg -r 91190 -t 800
     else
-        dunstify "t2" -a "unmuted" "$nsink" -i ${icodir}/unmuted-${dvce}.svg -r 91190 -t 800
+        notify-send "t2" -a "unmuted" "$nsink" -i ${icodir}/unmuted-${dvce}.svg -r 91190 -t 800
     fi
 }
 
