@@ -23,6 +23,7 @@ if status is-interactive
     source ~/.config/fish/functions/bindings.fish
 
     set -U tide_right_promt_items
+    set CHROOT $HOME/chroot
 end
 
 set fish_greeting ""
