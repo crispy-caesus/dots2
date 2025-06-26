@@ -31,7 +31,7 @@ saveRepeatShuffleSettings=1
 
 repeatState=0
 
-shuffleEnabled=1
+shuffleEnabled=0
 
 
 [visualizer]
