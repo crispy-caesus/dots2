@@ -20,6 +20,8 @@ if status is-interactive
 
     alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
+    alias ...='cd ../..'
+
     source ~/.config/fish/functions/bindings.fish
 
     set -U tide_right_promt_items
