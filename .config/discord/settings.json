@@ -1,12 +1,12 @@
 {
   "chromiumSwitches": {},
-  "IS_MAXIMIZED": true,
+  "IS_MAXIMIZED": false,
   "IS_MINIMIZED": false,
   "WINDOW_BOUNDS": {
-    "x": 0,
-    "y": 0,
-    "width": 1920,
-    "height": 1080
+    "x": 5762,
+    "y": 2,
+    "width": 1916,
+    "height": 1076
   },
   "SKIP_HOST_UPDATE": true,
   "BACKGROUND_COLOR": "#121214",
@@ -16,5 +16,6 @@
     "quickstart": false,
     "css": "/* Add your own Custom CSS here.\nHave a theme you want to use? Copy and paste the contents here.\nYou need to restart (click the restart button) after changing. */\n\n"
   },
-  "trayBalloonShown": true
+  "trayBalloonShown": true,
+  "offloadAdmControls": false
 }

@@ -29,7 +29,7 @@ replayGainCheckFirst=0
 # Save Repeat and Shuffle Settings.
 saveRepeatShuffleSettings=1
 
-repeatState=0
+repeatState=2
 
 shuffleEnabled=0
 
