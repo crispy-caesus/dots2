@@ -1,7 +1,7 @@
 #!/bin/bash
 
-OPTIONS=a,s,e,m,f
-LONGOPTS=area,screen,edit,monitor,freeze,freezeedit
+OPTIONS=a,s,e,m,f,c
+LONGOPTS=area,screen,edit,monitor,freeze,freezeedit,active
 
 PARSED=$(getopt --options="$OPTIONS" --longoptions="$LONGOPTS" -- "$@")
 eval set -- "$PARSED"
@@ -11,6 +11,8 @@ while true; do
         -a|--area) grim -g "$(slurp)" - | wl-copy
             shift;;
         -s|--screen) grim - | wl-copy
+            shift;;
+        -c|--active) grim -g "$(hyprctl activewindow -j | jq -r '"\(.at[0]),\(.at[1]) \(.size[0])x\(.size[1])"')" - | wl-copy
             shift;;
         -e|--edit) exec 3< <(grim -g "$(slurp)" -)
             swappy -f - <&3
