@@ -17,5 +17,7 @@
     "css": "/* Add your own Custom CSS here.\nHave a theme you want to use? Copy and paste the contents here.\nYou need to restart (click the restart button) after changing. */\n\n"
   },
   "trayBalloonShown": true,
-  "offloadAdmControls": false
+  "offloadAdmControls": false,
+  "OPEN_ON_STARTUP": false,
+  "MINIMIZE_TO_TRAY": false
 }
