@@ -1,0 +1,112 @@
+[Application]
+WindowWidth = 1882
+WindowHeight = 1076
+LastCheckedVersion = 'v0.17.0'
+LastLaunchedVersion = 'v0.17.0'
+EnableSystemTray = true
+CloseToSystemTray = false
+StartupPage = 'Albums'
+SettingsTab = 'General'
+AllowMultiInstance = false
+MaxImageCacheSizeMB = 200
+SavePlayQueue = true
+SaveQueueToServer = true
+DefaultPlaylistID = 'Swl7jYfkplXR9MMlOCJXm1'
+AddToPlaylistSkipDuplicates = false
+ShowTrackChangeNotification = false
+EnableLrcLib = true
+CustomLrcLibUrl = ''
+EnablePasswordStorage = true
+SkipSSLVerify = false
+EnqueueBatchSize = 100
+Language = 'auto'
+DisableDPIDetection = false
+EnableAutoUpdateChecker = true
+RequestTimeoutSeconds = 15
+EnableOSMediaPlayerAPIs = true
+FontNormalTTF = ''
+FontBoldTTF = ''
+UIScaleSize = 'Normal'
+
+[[Servers]]
+ServerType = 'Subsonic'
+Hostname = 'http://navidrome:4533/'
+AltHostname = 'https://navidrome.crispy-caesus.eu'
+Username = 'crispy_caesus'
+LegacyAuth = false
+ID = 'a8330e43-c803-4efb-ac77-6a09fdb09912'
+Nickname = 'hi'
+Default = true
+
+[AlbumPage]
+TracklistColumns = ['Artist', 'Time', 'Plays', 'Favorite', 'Rating']
+
+[AlbumsPage]
+SortOrder = 'Recently Added'
+ShowYears = false
+ShuffleMode = 'Tracks'
+
+[ArtistPage]
+InitialView = 'Discography'
+DiscographySort = ''
+TracklistColumns = ['Album', 'Time', 'Plays', 'Favorite', 'Rating']
+
+[ArtistsPage]
+SortOrder = 'Name (A-Z)'
+
+[FavoritesPage]
+InitialView = 'Albums'
+TracklistColumns = ['Album', 'Time', 'Plays']
+ShowAlbumYears = false
+
+[GridView]
+CardSize = 200.0
+
+[PlaylistPage]
+TracklistColumns = ['Album', 'Time', 'Plays']
+
+[PlaylistsPage]
+InitialView = 'List'
+
+[TracksPage]
+TracklistColumns = ['Album', 'Time', 'Plays']
+
+[NowPlayingConfig]
+InitialView = 'Lyrics'
+
+[Playback]
+Autoplay = false
+RepeatMode = 'All'
+
+[LocalPlayback]
+AudioDeviceName = 'auto'
+AudioExclusive = false
+InMemoryCacheSizeMB = 30
+Volume = 100
+EqualizerEnabled = false
+EqualizerPreamp = 0.0
+GraphicEqualizerBands = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+[Scrobbling]
+Enabled = true
+ThresholdTimeSeconds = -1
+ThresholdPercent = 75
+
+[ReplayGain]
+Mode = 'no'
+PreampGainDB = 0.0
+PreventClipping = true
+
+[Transcoding]
+ForceRawFile = false
+RequestTranscode = false
+Codec = 'opus'
+MaxBitRateKBPS = 160
+
+[Theme]
+ThemeFile = ''
+Appearance = 'Dark'
+
+[PeakMeter]
+WindowHeight = 536
+WindowWidth = 939
