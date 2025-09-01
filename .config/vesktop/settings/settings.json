@@ -131,9 +131,6 @@
         "DisableCallIdle": {
             "enabled": false
         },
-        "EmoteCloner": {
-            "enabled": false
-        },
         "Experiments": {
             "enabled": false,
             "toolbarDevMenu": false
@@ -620,6 +617,9 @@
         },
         "IrcColors": {
             "enabled": false
+        },
+        "ExpressionCloner": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -632,6 +632,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1739976281221
-    }
+        "settingsSyncVersion": 1755181340715
+    },
+    "eagerPatches": false
 }
