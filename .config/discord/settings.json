@@ -3,9 +3,9 @@
   "IS_MAXIMIZED": false,
   "IS_MINIMIZED": false,
   "WINDOW_BOUNDS": {
-    "x": 5762,
+    "x": 6722,
     "y": 2,
-    "width": 1916,
+    "width": 956,
     "height": 1076
   },
   "SKIP_HOST_UPDATE": true,
@@ -19,5 +19,6 @@
   "trayBalloonShown": true,
   "offloadAdmControls": false,
   "OPEN_ON_STARTUP": false,
-  "MINIMIZE_TO_TRAY": false
+  "MINIMIZE_TO_TRAY": false,
+  "enableHardwareAcceleration": true
 }

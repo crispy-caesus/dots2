@@ -356,7 +356,10 @@
             "enabled": false
         },
         "ShowMeYourName": {
-            "enabled": false
+            "enabled": true,
+            "mode": "user",
+            "displayNames": false,
+            "inReplies": true
         },
         "SilentMessageToggle": {
             "enabled": false
@@ -620,6 +623,9 @@
         },
         "ExpressionCloner": {
             "enabled": false
+        },
+        "DisableDeepLinks": {
+            "enabled": true
         }
     },
     "notifications": {

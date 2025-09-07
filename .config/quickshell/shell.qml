@@ -1,6 +1,7 @@
 import Quickshell
 import QtQuick
 import Quickshell.Hyprland
+import Quickshell.Services.SystemTray
 
 ShellRoot {
     PanelWindow {
@@ -44,6 +45,9 @@ ShellRoot {
             anchors.horizontalCenter: parent.horizontalCenter
 
             font.bold: true
+        }
+
+        SystemTray {
         }
     }
 }
