@@ -3,11 +3,8 @@ if status is-interactive
 
     # tmux a
 
-    if uwsm check may-start && uwsm select
-        exec uwsm start default
-    end
-
-    set -gx PATH $PATH ~/.local/bin/ ~/go/bin
+    set -gx PATH $PATH ~/.local/bin/ ~/go/bin ~/.cargo/bin /sbin /opt/avr-gcc/bin
+    set -x GPG_TTY (tty)
     set -Ux EDITOR nvim
 
     alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
