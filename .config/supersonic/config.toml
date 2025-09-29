@@ -1,8 +1,8 @@
 [Application]
-WindowWidth = 939
-WindowHeight = 1076
+WindowWidth = 1594
+WindowHeight = 894
 LastCheckedVersion = 'v0.18.0'
-LastLaunchedVersion = 'v0.17.0'
+LastLaunchedVersion = 'v0.18.0'
 EnableSystemTray = true
 CloseToSystemTray = false
 StartupPage = 'Albums'
@@ -19,7 +19,7 @@ CustomLrcLibUrl = ''
 EnablePasswordStorage = true
 SkipSSLVerify = false
 EnqueueBatchSize = 100
-Language = 'auto'
+Language = 'en'
 DisableDPIDetection = false
 EnableAutoUpdateChecker = false
 RequestTimeoutSeconds = 15
@@ -37,6 +37,7 @@ LegacyAuth = false
 ID = 'a8330e43-c803-4efb-ac77-6a09fdb09912'
 Nickname = 'hi'
 Default = true
+SelectedLibrary = ''
 
 [AlbumPage]
 TracklistColumns = ['Artist', 'Time', 'Plays', 'Favorite', 'Rating']
@@ -45,6 +46,7 @@ TracklistColumns = ['Artist', 'Time', 'Plays', 'Favorite', 'Rating']
 SortOrder = 'Recently Added'
 ShowYears = false
 ShuffleMode = 'Tracks'
+PlayInOrder = false
 
 [ArtistPage]
 InitialView = 'Discography'
@@ -77,6 +79,7 @@ InitialView = 'Lyrics'
 [Playback]
 Autoplay = false
 RepeatMode = 'All'
+UseWaveformSeekbar = false
 
 [LocalPlayback]
 AudioDeviceName = 'auto'
