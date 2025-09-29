@@ -1,0 +1,8 @@
+[user]
+	signingkey = C83E5D8F865C58F5
+	email = crispy@crispy-caesus.eu
+	name = crispy-caesus
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
