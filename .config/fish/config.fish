@@ -8,6 +8,7 @@ if status is-interactive
     set -Ux EDITOR nvim
 
     alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+    alias cfg='/usr/bin/lazygit --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
     alias ...='cd ../..'
 
