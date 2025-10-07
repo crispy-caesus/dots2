@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Obsidian
+Exec=sh -c 'LANG=en_US.UTF-8 bwrap --bind /var/chroots/debian / --dev-bind /dev /dev --proc /proc --bind /sys /sys --bind /run /run --bind /home /home --ro-bind /etc/resolv.conf /etc/resolv.conf --ro-bind /etc/passwd /etc/passwd --ro-bind /etc/group /etc/group /home/crispy/apps/obsidian/obsidian'
+Icon=/home/crispy/apps/obsidian/resources/icon.png
+Comment=Markdown vault thingy
+Keywords=md;
