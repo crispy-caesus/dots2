@@ -280,7 +280,7 @@ binds {
 }
 
 window-rule {
-    match app-id="^librewolf|Element|Supersonic|vesktop$"
+    match app-id="^librewolf|Supersonic|vesktop$"
     open-maximized true
 }
 
